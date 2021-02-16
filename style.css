@@ -13,6 +13,9 @@ a{
     background-size: cover;
     height: 51vw;
 }
+#main{
+    margin: 0px 24.4140625vw;
+}
 header{
     height: 132px;
     margin: 0px 24.4140625vw;
@@ -504,10 +507,13 @@ footer{
 }
 
 
-@media screen and (max-width:450px){
+@media only screen and (max-width:450px){
     .context {
-    padding-bottom: 10px;
-    margin-top: 0;
-    font-size: x-small;
+        padding-bottom: 10px;
+        margin-top: 0;
+        font-size: xx-small;
+    }
+    #main{
+        margin: 0px 23.4140625vw;
     }
 }
