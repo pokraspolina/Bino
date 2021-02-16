@@ -1,0 +1,500 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+}
+a{
+    text-decoration:none;
+}
+.mainphoto{
+    background-image: url(img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 51vw;
+}
+header{
+    height: 132px;
+    margin: 0px 24.4140625vw;
+    padding: 38px 0;
+}
+    .logo{
+        width: fit-content;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .menu{
+        text-align: right;
+
+    }
+        .menu a{
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+            margin-left: 22px;
+            margin-bottom: 10px;
+            font-size: x-small;
+            position: relative;
+            top: -3vh;
+            border-bottom: 3px solid transparent;
+        }
+            .menu a:hover{
+                color: #e74e3e;
+                border-bottom: 1px solid #e74e3e;
+                padding-bottom: 10px;
+                transform: all .5s;
+            }
+
+    #rows, .closebtn{
+        display: none;
+    }
+#leftrow, #rightrow{
+    position: absolute;
+    bottom: 36vh;   
+}
+#leftrow{left: 3vw;}
+#rightrow{
+    right: 3vw;
+}
+
+.clients{
+    text-align: center;
+    color: #f4f5f9;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 12vh;
+}
+.welcome{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f4f5f9;
+    font-size: 4em;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+.rowdot{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.lorem{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #cbc6c0;
+    padding: 0px 79px;
+    margin-bottom: 60px;
+}
+.redbtn, .whitebtn{
+    padding: 10px 20px;
+    text-align: center;
+    color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+   
+    } 
+    .redbtn{
+        background-color: #e74e3e;
+        margin: 0px 2vw 0px 0;
+        border: 1px solid #e74e3e;
+    }
+    .whitebtn{
+        border: 1px solid #fff;
+        padding: 10px 40px;
+    }
+    .anchor>img{
+        width: 55px;
+        padding: 14px 16px;
+        background-color: #f4f5f9;
+        border-radius: 67%;
+    }
+    .anchor{
+        text-align: center;
+        position: relative;
+        top: -3vh;
+    }
+.heads{
+    color: #6a6a6a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 0px;
+}
+.heads-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #999999;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.content>.content-photo{
+        width: 100%;
+    }
+    .content-text{
+        padding:3vw 2vw 1vw 2vw;
+        background-color: #e74e3e;
+        color: #fff;
+    }
+    .art{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+    }
+    .shirt{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;        
+    }
+    .context{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        padding-bottom: 25px;
+        font-size: smaller;
+    }
+    .readmore{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+    .readmore a{
+        color: #fff;
+    }
+
+#portfolio{
+    background-image: url(img/background.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.numbers{
+    margin: 0px 17vw;
+    max-width: 1000px;
+    padding: 21vh 0px 0px;
+}
+.reason-statistic{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+    .reason-statistic-item{
+        padding-bottom: 80px;
+    }
+    .reason-statistic-num{
+        font-family:'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 4px;
+    }
+    .reason-statistic-text{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        color: #fff;
+        margin: 0;
+    }
+
+/*PRICING*/
+.tablegrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:1vw;
+    text-align: center;
+}
+    .spb{
+        height: 150px;
+        font-family:'Source Sans Pro', sans-serif;;
+        font-weight: 600;
+        color: #fff;
+        background-color: #999899;
+        padding-top: 5vh;
+        margin: 0;
+    }
+    .bordercircle{
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background-color: #f4f5f9;
+        opacity: 0.251;
+        padding: 10px 10px;
+        position: absolute;
+        z-index: 2;
+        margin-left: 6.5vw;
+        margin-top: -9vh;
+    }
+    .circle{
+        width: fit-content;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        border-radius: 56%;
+        color: #999899;
+        background-color: #fff;
+        z-index: 3;
+        padding: 30px 27px;
+        position: absolute;
+        margin-top: -8vh;
+        margin-left: 6.9vw;
+    }
+    .prices{
+        margin: 0;
+        font-size: xx-large;
+    }
+    .textforprice{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        line-height: 30px;
+        color: #999899;
+        padding: 98px 0 25px 0;
+    }
+    .greychoose{
+        margin-bottom: 30px;
+        background-color: #999899;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        padding: 10px 20px;
+        border: 0;
+        cursor: pointer;
+    }
+/*TEAM*/
+#ourteam{
+    background-image: url(img/Curve.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.about-dot{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+/*CONACT*/
+#contact{
+    background-color: rgb(244, 245, 249);
+}
+#help{
+    display: grid;
+    grid-template-columns: 38% 61%;
+    grid-column-gap: 25px;
+    margin-top: 6vh;
+}
+.gform_1{
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    padding: 5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+.redhead{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #e74e3e;
+}
+.adresstext{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+.adresstext a{
+    text-decoration: none;
+    color: #6a6a6a;
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], textarea {
+    width: 100%;
+    height: 22px;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #999899;
+    background-color: transparent;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-appearance: none;
+}
+.gform_fields {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+    .gform_fields li{
+        width: 100%;
+        padding-top: 25px;
+    }
+    .plumb-button, input[type=submit] {
+        padding: 0 35px;
+        margin: 20px 0;
+        height: 50px;
+        border: 2px solid #e74e3e;
+        color: #ffffff;
+        font-family: inherit;
+        font-size: 20px;
+        cursor: pointer;
+        background: #e74e3e;
+        border-radius: 3px;
+        box-shadow: 0px 2px 4.75px 0.25px rgb(0 0 0 / 25%);
+    }
+/*footer*/
+footer{
+    background-color: #202020;
+    height: 100px;
+}
+.icons + .icons{
+    margin-left: 1vw;
+}
+#smicon{
+    padding-top: 3vh;
+            margin: 0 17vw;
+}
+.allr{
+    text-align: right;
+    margin-top: -3vh;
+}
+@media screen and (max-width:1300px){
+    .content-text {
+        padding: 2vw 1vw 0vw 2vw;
+        font-size: small;
+    }
+
+}
+@media screen and (max-width:1186px){
+    header {
+        margin: 0px 20.414063vw;
+    }
+    .mainphoto{
+        font-size: x-small;
+        height: fit-content;
+        background-size: initial;
+        padding-bottom: 36px;
+    }
+    .clients {
+        margin-top: 4vh;
+    }
+    #leftrow, #rightrow{
+        bottom: 40vh;   
+    }
+    .bordercircle{
+        margin-left: 5.5vw;
+    }
+    .circle{
+        margin-left: 5.9vw;
+    }
+}
+@media screen and (max-width:1000px){
+    #mySidenav, #rows{
+        display: block;
+    }
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      text-align: left;
+    }
+    .sidenav a {
+      padding: 22px 8px 8px 10px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+      text-decoration: none;
+    }  
+    .sidenav a:nth-child(2){
+        margin-top: 50px;
+    }
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      .reason-statistic{
+        display: block;
+      }
+      .content {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4, 25%);
+      }
+      #photo2, #text2{
+          grid-row-start: 3;
+      }
+      .tablegrid {
+        grid-template-columns: 1fr;
+      }
+      .bordercircle{
+        margin-left: 24.5vw;
+    }
+    .circle{
+        margin-left: 24.9vw;
+    }
+    #line{
+        display: none;
+    }
+    .about-dot{
+        position: relative;
+        bottom: 10vh;
+    }
+    #help{
+        grid-template-columns: 1fr;
+    }
+    .gform_1 {
+        text-align: center;
+    }
+    .gform_1 + .gform_1{
+        margin-top: 3vh;
+    }
+    .heads-text {
+        font-size: small;
+        margin: 0 3vw;
+    }
+    .redbtn {
+        margin: 0;
+        padding: 10px;
+    }
+    .whitebtn {
+        padding: 10px 20px;
+    }
+    .lorem {
+        padding: 0px;
+    }
+    .allr{
+        text-align: left;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 550px){
+    #smicon, .allr{
+        text-align: center;
+    }
+    .bordercircle {
+        margin-left: 19.5vw;
+    }
+    .circle {
+        margin-left: 20.9vw;
+    }
+}

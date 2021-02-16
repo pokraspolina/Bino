@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2" height="108" viewBox="0 0 2 108">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+        opacity: 0.75;
+      }
+    </style>
+  </defs>
+  <rect id="Line" class="cls-1" x="0.5" y="0.5" width="1" height="107"/>
+</svg>

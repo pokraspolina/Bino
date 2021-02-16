@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.25;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #303030;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="left" class="cls-1">
+    <rect id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-2" width="45" height="45" rx="2" ry="2"/>
+    <path id="fa-angle-left" class="cls-3" d="M76.831,451.736a0.652,0.652,0,0,0-.2-0.462l-1-1a0.636,0.636,0,0,0-.922,0l-9.341,9.341a0.632,0.632,0,0,0,0,.923l9.341,9.339a0.629,0.629,0,0,0,.922,0l1-1a0.631,0.631,0,0,0,0-.922l-7.877-7.877,7.877-7.877A0.7,0.7,0,0,0,76.831,451.736Z" transform="translate(-49 -437)"/>
+  </g>
+</svg>
