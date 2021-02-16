@@ -16,6 +16,19 @@ a{
 #main{
     margin: 0px 24.4140625vw;
 }
+#B{
+    border: 3px solid #fff;
+                background-color: #fff;
+                color:#4a4c55;
+                padding: 0px 11px;
+}
+#INO{
+    color: #fff;
+                border: 3px solid #fff;
+                font-weight: 300;
+                position: relative;
+                left: -1vw;
+}
 header{
     height: 132px;
     margin: 0px 24.4140625vw;
@@ -50,7 +63,14 @@ header{
                 padding-bottom: 10px;
                 transform: all .5s;
             }
-
+#rows{
+    font-size:30px;
+    cursor:pointer;
+    color: #fff;
+    position: relative;
+    top: -7vh;
+    text-align: right;
+}
     #rows, .closebtn{
         display: none;
     }
@@ -62,7 +82,12 @@ header{
 #rightrow{
     right: 3vw;
 }
-
+#leftrow:hover{
+    background-image: url(img/leftred.svg);
+}
+#rightrow:hover{
+    background-image: url(img/rightred.svg);
+}
 .clients{
     text-align: center;
     color: #f4f5f9;
@@ -93,13 +118,15 @@ header{
     padding: 0px 79px;
     margin-bottom: 60px;
 }
+#btn{
+    text-align: center;
+}
 .redbtn, .whitebtn{
     padding: 10px 20px;
     text-align: center;
     color:#fff;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-   
+    font-weight: 900;   
     } 
     .redbtn{
         background-color: #e74e3e;
@@ -119,7 +146,7 @@ header{
     .anchor{
         text-align: center;
         position: relative;
-        top: -3vh;
+        top: -7vh;
     }
 .heads{
     color: #6a6a6a;
@@ -156,6 +183,20 @@ header{
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 400;        
     }
+    #month{
+        font-size: small;
+    }
+    .price{
+        padding-top: 4vw;
+    }
+    .divforprice{
+        background-color: rgb(244, 245, 249);
+                    position: relative;
+                    bottom: 2vh;
+    }
+    .lineunder{
+        border-top: 3px solid #fff;
+    }
     .context{
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 400;
@@ -179,7 +220,7 @@ header{
 .numbers{
     margin: 0px 17vw;
     max-width: 1000px;
-    padding: 21vh 0px 0px;
+    padding: 17vh 0px 0px;
 }
 .reason-statistic{
     display: flex;
@@ -266,6 +307,9 @@ header{
         border: 0;
         cursor: pointer;
     }
+.linc img{
+    width: 80px;
+}
 /*TEAM*/
 #ourteam{
     background-image: url(img/Curve.jpg);
@@ -275,6 +319,20 @@ header{
 .about-dot{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+}
+
+#line{
+    position: relative;
+    bottom: -1vh;
+    left: -4vw;
+    z-index: -1;
+    width: 2px;
+}
+#team{
+    padding-top: 4vw; color: #fff;
+}
+#teamtext{
+    color: #fff;
 }
 /*CONACT*/
 #contact{
@@ -349,7 +407,42 @@ input[type=email], input[type=number], input[type=password], input[type=tel], in
         border-radius: 3px;
         box-shadow: 0px 2px 4.75px 0.25px rgb(0 0 0 / 25%);
     }
+.padfor{
+    padding-top: 3vh;
+}
+.form{
+    padding: 0;padding-bottom: 13vh;
+}
+.dot-1{
+    font-weight: 600; color: #e74e3e;
+}
+.dot-2{
+    font-weight: 400; color: #fff;
+}
+.item-1{
+    position: relative;
+    bottom: 6vh;
+}
+.item-2{
+    position: relative;
+    bottom: 7vh;
+    z-index: 1;
+}
+.item-3{
+    position: relative;
+    bottom: 10vh;
+}
+.item-4{
+    position: relative;
+    bottom: 7vh;
+}
+.item-5{
+    position: relative;
+    bottom: 9vh;
+}
+
 /*footer*/
+
 footer{
     background-color: #202020;
     height: 100px;
@@ -360,11 +453,88 @@ footer{
 #smicon{
     padding-top: 3vh;
             margin: 0 17vw;
+            display: flex;
 }
 .allr{
     text-align: right;
-    margin-top: -3vh;
 }
+textarea{
+    height: 82px;
+}
+.gform_fields li:nth-child(1){
+    padding: 0;
+}
+hr{
+    position: relative;
+    top: -2vh;
+}
+.icons:hover{
+    cursor: pointer;
+}
+#facebook, #twitter, #rss, #vimeo, #tumblr, #skype{
+    height: 20px;
+}
+#facebook{
+    background-image: url(img/facebook.svg);
+    width: 12px;
+}
+#facebook:hover{
+    background-image: url(img/facebookred.svg);
+}
+#twitter{
+    background-image: url(img/twitter.svg);
+    width: 27px;
+
+}
+#twitter:hover{
+    background-image: url(img/twitterred.svg);
+}
+#rss{
+    background-image: url(img/rss.svg);
+    width: 20px;
+}
+#rss:hover{
+    background-image: url(img/rssred.svg);
+}
+#gp{
+    background-image: url(img/google\ plus.svg);
+    width: 20px;
+    height: 18px;
+}
+#gp:hover{
+    background-image: url(img/google\ plusred.svg);
+}
+#in{
+    background-image: url(img/linkedin.svg);
+    width: 20px;
+    height: 18px;
+}
+#in:hover{
+    background-image: url(img/linkedinred.svg);
+}
+#skype{
+    background-image: url(img/skype.svg);
+    width: 20px;
+}
+#skype:hover{
+    background-image: url(img/skypered.svg);
+}
+#vimeo{
+    background-image: url(img/vimeo.svg);
+    width: 20px;
+    height: 17px;
+}
+#vimeo:hover{
+    background-image: url(img/vimeored.svg);
+}
+#tumblr{
+    background-image: url(img/tumblr.svg);
+    width: 12px;
+}
+#tumblr:hover{
+    background-image: url(img/tumblrred.svg);
+}
+
 @media screen and (max-width:1300px){
     .content-text {
         padding: 2vw 1vw 0vw 2vw;
@@ -398,6 +568,9 @@ footer{
 @media screen and (max-width:1000px){
     #mySidenav, #rows{
         display: block;
+    }
+    .dot-1{
+        padding-top: 38px;
     }
     .sidenav {
       height: 100%;
@@ -505,8 +678,6 @@ footer{
     font-size: x-small;
 }
 }
-
-
 @media only screen and (max-width:450px){
     .context {
         padding-bottom: 10px;

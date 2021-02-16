@@ -2,8 +2,8 @@
   <defs>
     <style>
       .cls-1 {
+        fill: #e74c3c;
         fill-rule: evenodd;
-        fill: #999899;
         filter: url(#filter);
       }
     </style>

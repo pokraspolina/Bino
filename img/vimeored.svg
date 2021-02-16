@@ -2,9 +2,8 @@
   <defs>
     <style>
       .cls-1 {
+        fill: #e74c3c;
         fill-rule: evenodd;
-        fill: #999899;
-        fill-opacity:1;
       }
     </style>
   </defs>
