@@ -514,14 +514,6 @@ footer{
         font-size: xx-small;
     }
     #main{
-        margin: 0px 23.4140625vw;
-    }
-    .whitebtn {
-        padding: 5px 35px;
-    }
-    .redbtn {
-        padding: 5px 25px;
-    }
-}
-    
+        margin: 0px 21.4140625vw;
+    }    
 }
