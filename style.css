@@ -456,7 +456,35 @@ footer{
             display: flex;
 }
 .allr{
-    text-align: right;
+    position: absolute;
+    right: 16vw;
+    margin-top: 0;
+}
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid #e74e3e;
+    position: absolute;
+    left: 22vw;
+    margin-top: 140px;
+}
+.l2{
+    left: 71vw;
+}
+#r2{
+    left: 74vw;
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #e74e3e;
+    position: absolute;
+    left: 24vw;
+    margin-top: 536px;
 }
 textarea{
     height: 82px;
@@ -535,6 +563,12 @@ hr{
     background-image: url(img/tumblrred.svg);
 }
 
+#topNubex{
+	cursor: pointer;
+    position: fixed;
+    right: 11vw;
+    bottom: 9vh;
+}
 @media screen and (max-width:1300px){
     .content-text {
         padding: 2vw 1vw 0vw 2vw;
