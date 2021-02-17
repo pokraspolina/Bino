@@ -630,7 +630,7 @@ hr{
 }
 }
 @media screen and (max-width:1000px){
-	.triangle-right, .triangle-left {
+	.triangle-right, .triangle-left, #r2, #l2{
 		display:none;
 	}
     #mySidenav, #rows{
